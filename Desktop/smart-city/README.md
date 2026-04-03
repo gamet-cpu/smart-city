@@ -15,4 +15,4 @@
 
 ### Инструкция по запуску
 1. Терминал 1 (Back): `uvicorn main:app --reload`
-2. Терминал 2 (Front): `npm run dev`
+2. Терминал 2 (Front): `npm run dev`.
