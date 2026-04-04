@@ -14,5 +14,15 @@
 - **Data Source:** Имитация датчиков на основе исторических данных Kaggle.
 
 ### Инструкция по запуску
-1. Терминал 1 (Back): `uvicorn main:app --reload`
-2. Терминал 2 (Front): `npm run dev`.
+Запуск
+Терминал 1 (backend):
+
+
+cd Desktop/smart-city/sc-back
+pip install python-dotenv httpx fastapi uvicorn
+uvicorn main:app --reload --port 8001
+Терминал 2 (frontend):
+
+
+cd Desktop/smart-city/sc-front
+npm run dev

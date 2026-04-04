@@ -1,5 +1,6 @@
 fastapi
 uvicorn
-pandas
-scikit-learn
+httpx
+pydantic
+python-dotenv
 python-multipart

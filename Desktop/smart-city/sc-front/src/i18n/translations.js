@@ -7,6 +7,7 @@ export const translations = {
       ecology:   "Ecology",
       safety:    "Safety",
       utilities: "Utilities",
+      akimat:    "Akimat",
     },
     theme: { dark: "Dark", light: "Light" },
     overview: {
@@ -159,6 +160,7 @@ export const translations = {
       ecology:   "Экология",
       safety:    "Безопасность",
       utilities: "ЖКХ",
+      akimat:    "Акимат",
     },
     theme: { dark: "Тёмная", light: "Светлая" },
     overview: {
@@ -311,6 +313,7 @@ export const translations = {
       ecology:   "Экология",
       safety:    "Қауіпсіздік",
       utilities: "ТКШ",
+      akimat:    "Әкімдік",
     },
     theme: { dark: "Күңгірт", light: "Жарық" },
     overview: {

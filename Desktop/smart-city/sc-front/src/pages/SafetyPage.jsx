@@ -100,7 +100,7 @@ export default function SafetyPage({ t }) {
                       background: STATUS_BG[status],
                       border: `1px solid ${STATUS_COLORS[status]}44`,
                       display: 'flex', alignItems: 'center', justifyContent: 'center',
-                      fontSize: 16, alignItems: 'center', justifyContent: 'center',
+                      fontSize: 16,
                       cursor: 'pointer',
                     }}
                     title={`Camera ${i + 1} — ${status}`}

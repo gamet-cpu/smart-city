@@ -2,7 +2,7 @@ import {
   LineChart, Line, BarChart, Bar, Cell, XAxis, YAxis,
   Tooltip, ResponsiveContainer, CartesianGrid, Legend,
 } from 'recharts';
-import { trendData, categoryData } from '../data/mockData';
+import { trendData } from '../data/mockData';
 
 const COLORS = {
   transport: '#3b82f6',

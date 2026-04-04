@@ -6,6 +6,7 @@ const NAV_ITEMS = [
   { path: '/ecology',     key: 'ecology',   icon: '🌿', color: '#10B981' },
   { path: '/safety',      key: 'safety',    icon: '🛡️', color: '#F59E0B' },
   { path: '/utilities',   key: 'utilities', icon: '⚡', color: '#8B5CF6' },
+  { path: '/akimat',      key: 'akimat',    icon: '🏛️', color: '#6366F1' },
 ];
 
 export default function Navbar({ t, lang, setLang, theme, setTheme }) {
@@ -25,10 +26,12 @@ export default function Navbar({ t, lang, setLang, theme, setTheme }) {
             className={({ isActive }) => `nav-link ${isActive ? 'active' : ''}`}
             style={({ isActive }) => isActive ? { color: item.color } : {}}
           >
-            <span className="nl-icon">{item.icon}</span>
-            {t.nav[item.key]}
-            {({ isActive }) => isActive && (
-              <span className="nl-dot" style={{ background: item.color }} />
+            {({ isActive }) => (
+              <>
+                <span className="nl-icon">{item.icon}</span>
+                {t.nav[item.key]}
+                {isActive && <span className="nl-dot" style={{ background: item.color }} />}
+              </>
             )}
           </NavLink>
         ))}
